@@ -1,0 +1,16 @@
+Read me Purpose of project Part 1:Create a C program on Linux that runs an infinite loop. That stops and sleeps for two seconds. The program is supposed to start by writing nothing and then reaches the SIGINT signal that writes the number of iterations its executing. The program will continue printing until another SIGINT is sent to the process. After this the print is suppressed until a new SIGINT  signal. If the program has a SIGURS1 it must terminate returning 0.Part 2:Create a C program for Linux that takes a single integer argument N from the command line and uses the integer to create a set of 2*n processes. Each process should display “I am process x” and x is the process ID. Then terminates Name of files
+Part1.c
+Part2.c How to run my code 
+Find your file on the terminal
+Type gcc part1.c 
+Press control C to see the iteration after its ran 
+Then you will see
+
+Start over 
+Gcc part 2
+Then ./a.out (number)
+Example ./a.out 5 
+That'll show second part 
+
+
+
